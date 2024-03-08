@@ -1,0 +1,11 @@
+begday@2019-04-30
+begantime@13:24:00
+endday@2019-05-13
+endtime@23:20:30
+beganweek@1234
+tgrade@2
+taskcontent@这测试数据这测试数据这测试数据这测试数据这测试数据这测试数据这测试数据这测试数据这测试数据这测试数
+count@95
+type@2
+interarrivaltime@4
+file@content.txt

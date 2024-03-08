@@ -1,0 +1,6 @@
+Mediaplayer对于： 
+1，raw下资源文件主要指.mp4 .mkv 
+2，sd卡下的mp4,mkv 
+3，http协议下的MP4 
+4，https协议下的MP4 
+5，rm，rmvb格式视频不支持

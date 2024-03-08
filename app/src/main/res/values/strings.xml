@@ -1,0 +1,94 @@
+<resources>
+
+
+
+    <string name="app_name">智能终端</string>
+
+
+
+
+    <string name="test_text">“真正的情商高，不是虚伪，而是温暖。” 要怎么说话呢？ 1.把你说的“不对”统统改成“对”。我有个朋友最喜欢说“不”，不管别人说什么，他先说“不”，“不对”，”不是的”，但他接下来的话并不是推翻别人，只是补充而已。他只是习惯了说“不”，大家都讨厌他。谁喜欢被否定啊？我采访过一个学识特别渊博的教授，我发现他有个美好的小习惯，不管对方说了多么愚蠢的话，他一定会很诚恳地说，“对”，认真地指出你这个话可以成立的点，然后延展开去，讲他的看法。他这么牛的人，肯定了粗鄙的你，你一定受宠若惊。而他把你的意见上升到那样高度，你发现自己和他都好厉害哦。从此我学会了这一点，先肯定对方，再讲自己的意见，沟通氛围会好很多哦。 2.说“谢谢”的时候可以加上“你”，或者加上对方的名字。 “谢谢”和“谢谢你”的差别在哪？“谢谢”是泛指，而“谢谢你”是特指，更走心。对于陌生人，你说“谢谢你”，对于认识的人，加上对方的名字，会友善很多。很多。很多。 3.请别人帮忙的时候，句子末尾加上“好吗”。千万不要用命令的语气说话，加上“好吗”两个字，就变成商量的语气，对方会觉得更被尊重。一个朋友是上市公司总裁，他每次让我做什么事，都会加“可以吗”“你方便吗”“好吗”——尤其是对待世俗意义上比自己地位低的人，用商量的语气，显得你更有教养哦。 4.聊天的时候，少用“我”，多说“你”。蔡康永就说过，聊天的时候，每个人都是朕。每个人都只想聊自己。你讲了自己的经历，或者对某件事的看法，然后加上“你呢”，“你觉得呢”，把话题丢给对方，让对方也有表达的空间和权力，你会变得可爱很多。 5.多用“我们”、“咱们”，可以迅速拉近关系。比如跟刚认识的人约见面，比起问“明天在哪儿见面啊”，换成“明天咱们在哪儿见面啊”，只是一个细节的改动，就显得更亲切了，对吧。 6.赞美别人的时候，不要太空泛，要具体地赞美细节。“你好美啊”、“你好聪明”、“你好厉害”这些是普通级的赞美，更高级的赞美是，找到对方怎么美、怎么聪明、怎么厉害。比如认识一个姑娘身材特别好，而她已经听腻了别人夸她身材好了，有个人夸她“中国女孩的腰臀比例都不太好，只有你是一个例外”，她印象最深刻，然后她就嫁给对方了。而经常有人夸我，咪蒙你写的书好棒哦，你文笔太好了，老实说我会当成一种客套，但是如果对方说我哪篇文章写得特别好，哪段话他特别喜欢，我会特别感动，原来他是真的喜欢我的文字啊。 7.赞美别人鲜为人知的优点，赞美他期待被夸奖的部分。美貌的人都希望你夸他有内涵，企业家都希望你夸他有人文情怀，才女都希望你夸她美，缺哪补哪。我又忍不住刻薄了，说好的高情商呢？但如果他真的就是肤浅，真的就是奸商，真的就是肮脏不堪，也不能昧着良心硬夸啊，那不是情商高，那是虚伪。 8.用调侃的方式去赞美别人。老实说，有时候我觉得直白的赞美挺肉麻的，所以用调侃模式去夸，会好点儿。比如你想夸一个人身材特别好，你可以说“你腿短点、腰粗点会死啊，讨厌，离我远点儿”。比如你想夸一个美女特别有才华，可以说“按照国际惯例，长得美的都挺傻，你这么好看还这么聪明，这是犯规，不，这是犯罪！”</string>
+    <string name="ip">ip</string>
+    <string name="port">端口号</string>
+    <string name="addr">安装地址</string>
+    <string name="hint_ip">服务器IP</string>
+    <string name="hint_port">服务器端口号</string>
+    <string name="hint_addr">此设备安装地址</string>
+    <string name="btn_confirm_ip">设置</string>
+
+    <string name="usb_failed_path">获取U盘路径出错，请重新插入</string>
+    <string name="usb_no_task_file">无任务文件，请拔出U盘</string>
+    <string name="usb_copy_media">开始拷贝媒体文件</string>
+    <string name="usb_handle_task">部署任务</string>
+    <string name="usb_task_success">任务成功下达，请拔出U盘</string>
+    <string name="usb_task_failed">任务下达失败，请重新插入</string>
+
+
+    <string name="copyright">Copyright 2014~2016 www.daniulive.com v1.0.16.0921</string>
+    <string name="publisherURL">URL</string>
+    <string name="action_settings">Settings</string>
+    <string name="switchCameraText">前后置摄像头切换</string>
+    <string name="qq_qun">QQ群:294891451,  499687479</string>
+
+
+    <string name="N_A">N/A</string>
+    <string name="close">Close</string>
+    <string name="exit">Exit</string>
+    <string name="sample">Sample</string>
+    <string name="recent">Recent</string>
+    <string name="settings">Settings</string>
+    <string name="tracks">Tracks</string>
+    <string name="toggle_player">Player</string>
+    <string name="toggle_render">Render</string>
+    <string name="toggle_ratio">Scale</string>
+    <string name="show_info">Info</string>
+    <string name="vdec">vdec</string>
+    <string name="fps">fps</string>
+    <string name="v_cache">v-cache</string>
+    <string name="a_cache">a-cache</string>
+
+    <string name="media_information">Media Information</string>
+    <string name="mi_player">Player</string>
+    <string name="mi_media">Media</string>
+    <string name="mi_profile_level">Profile level</string>
+    <string name="mi_pixel_format">Pixel format</string>
+    <string name="mi_resolution">Resolution</string>
+    <string name="mi_length">Length</string>
+    <string name="mi_stream_fmt1">Stream #%d</string>
+    <string name="mi_type">Type</string>
+    <string name="mi_language">Language</string>
+    <string name="mi_codec">Codec</string>
+    <string name="mi_frame_rate">Frame rate</string>
+    <string name="mi_bit_rate">Bit rate</string>
+    <string name="mi_sample_rate">Sample rate</string>
+    <string name="mi_channels">Channels</string>
+    <string name="mi__selected_video_track">*</string>
+    <string name="mi__selected_audio_track">*</string>
+
+    <string name="TrackType_video">Video</string>
+    <string name="TrackType_audio">Audio</string>
+    <string name="TrackType_subtitle">Subtitle</string>
+    <string name="TrackType_timedtext">Timed text</string>
+    <string name="TrackType_metadata">Meta data</string>
+    <string name="TrackType_unknown">Unknown</string>
+
+    <string name="VideoView_error_text_invalid_progressive_playback">Invalid progressive playback</string>
+    <string name="VideoView_error_text_unknown">Unknown</string>
+    <string name="VideoView_error_button">OK</string>
+
+    <string name="VideoView_ar_aspect_fit_parent">Aspect / Fit parent</string>
+    <string name="VideoView_ar_aspect_fill_parent">Aspect / Fill parent</string>
+    <string name="VideoView_ar_aspect_wrap_content">Aspect / Wrap content</string>
+    <string name="VideoView_ar_match_parent">Free / Fill parent</string>
+    <string name="VideoView_ar_16_9_fit_parent">16:9 / Fit parent</string>
+    <string name="VideoView_ar_4_3_fit_parent">4:3 / Fit parent</string>
+
+    <string name="VideoView_render_none">Render: None</string>
+    <string name="VideoView_render_surface_view">Render: SurfaceView</string>
+    <string name="VideoView_render_texture_view">Render: TextureView</string>
+
+    <string name="VideoView_player_none">Player: None</string>
+    <string name="VideoView_player_AndroidMediaPlayer">Player: AndroidMediaPlayer</string>
+    <string name="VideoView_player_IjkMediaPlayer">Player: IjkMediaPlayer</string>
+    <string name="VideoView_player_IjkExoMediaPlayer">Player: IjkExoMediaPlayer</string>
+</resources>

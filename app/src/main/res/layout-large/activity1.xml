@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="#000"
+    tools:context=".ui.CameraPublishActivity">
+    <Spinner
+        android:id="@+id/resolutionSelctor"
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp" />
+    <android.view.SurfaceView
+        android:id="@+id/surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="1dp"
+        android:layout_height="1dp"  />
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/surface_view"
+        android:orientation="horizontal">
+
+        <TextClock
+            android:id="@+id/tc_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:format24Hour="MM月dd日 EEE HH:mm:ss"
+            android:gravity="center_vertical"
+            android:textColor="#fff"
+            android:textSize="48sp"
+            tools:visibility="visible" />
+
+        <cn.com.data_plus.bozhilian.widget.StateImageView
+            android:id="@+id/iv_activity"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/ll"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:maxLines="5"
+        android:textColor="#ff0000"
+        android:textSize="35sp"
+        tools:text="初次运行\n请在右上角\n初始化配置" />
+
+    <Button
+        android:id="@+id/btn_video_stream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/tv_activity"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="onClick"
+        android:text="请求视频" />
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn"-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:onClick="onClick"-->
+    <!--android:text="0"-->
+    <!--android:textColor="#bbb" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn1"-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:onClick="onClick"-->
+    <!--android:text="1"-->
+    <!--android:textColor="#bbb" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn2"-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:onClick="onClick"-->
+    <!--android:text="2"-->
+    <!--android:textColor="#bbb" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn3"-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:onClick="onClick"-->
+    <!--android:text="3"-->
+    <!--android:textColor="#bbb" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn4"-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:onClick="onClick"-->
+    <!--android:text="4"-->
+    <!--android:textColor="#bbb" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn5"-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:onClick="onClick"-->
+    <!--android:text="5"-->
+    <!--android:textColor="#bbb" />-->
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#5cc4ea"
+            android:textSize="30sp"
+            android:visibility="gone"
+            tools:text="任务XXX文件下载中" />
+
+        <ProgressBar
+            android:id="@+id/pb_download"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <cn.com.data_plus.bozhilian.widget.AlwaysMarqueeTextView
+        android:id="@+id/tv_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#9ccc"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="@color/log_error"
+        android:textSize="35sp"
+        android:visibility="gone"
+        tools:text="hello"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        tools:text="LOG" />
+</RelativeLayout>

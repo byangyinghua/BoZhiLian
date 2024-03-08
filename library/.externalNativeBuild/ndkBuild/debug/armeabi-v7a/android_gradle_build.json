@@ -1,0 +1,242 @@
+{
+  "buildFiles": [
+    "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Android.mk",
+    "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Application.mk"
+  ],
+  "cleanCommands": [
+    "H:\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Android.mk NDK_APPLICATION_MK\u003dH:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dH:/preject/preject/BoZhiLian/library/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\preject\\preject\\BoZhiLian\\library\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "yuv-debug-armeabi-v7a": {
+      "buildCommand": "H:\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Android.mk NDK_APPLICATION_MK\u003dH:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dH:/preject/preject/BoZhiLian/library/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\preject\\preject\\BoZhiLian\\library\\build\\intermediates\\ndkBuild\\debug\\lib H:/preject/preject/BoZhiLian/library/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libyuv.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "yuv",
+      "files": [
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\compare.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\compare_common.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\compare_neon.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\convert.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\convert_argb.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\convert_from.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\convert_from_argb.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\convert_to_argb.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\convert_to_i420.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\cpu_id.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\planar_functions.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\rotate.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\rotate_any.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\rotate_argb.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\rotate_common.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\rotate_neon.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\row_any.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\row_common.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\row_neon.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\scale.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\scale_any.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\scale_argb.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\scale_common.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\scale_neon.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\video_common.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "H:\\preject\\preject\\BoZhiLian\\library\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libyuv.so"
+    },
+    "enc-debug-armeabi-v7a": {
+      "buildCommand": "H:\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Android.mk NDK_APPLICATION_MK\u003dH:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dH:/preject/preject/BoZhiLian/library/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\preject\\preject\\BoZhiLian\\library\\build\\intermediates\\ndkBuild\\debug\\lib H:/preject/preject/BoZhiLian/library/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libenc.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "enc",
+      "files": [
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libenc\\libenc.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libenc/../libyuv/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libenc/../libx264 -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libenc -DANDROID -Wa,--noexecstack -Wno-error\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\compare.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\compare_common.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\compare_neon.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\convert.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\convert_argb.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\convert_from.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\convert_from_argb.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\convert_to_argb.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\convert_to_i420.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\cpu_id.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\planar_functions.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\rotate.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\rotate_any.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\rotate_argb.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\rotate_common.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\rotate_neon.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\row_any.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\row_common.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\row_neon.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\scale.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\scale_any.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\scale_argb.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\scale_common.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\scale_neon.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\libyuv\\source\\video_common.cc",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot H:/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv/include -IH:/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IH:/preject/preject/BoZhiLian/library/src/main/cpp/libyuv -DANDROID -DLIBYUV_NEON -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "H:\\preject\\preject\\BoZhiLian\\library\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libenc.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "H:\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc"
+  ]
+}

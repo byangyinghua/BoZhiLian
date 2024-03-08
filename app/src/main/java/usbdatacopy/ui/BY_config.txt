@@ -1,0 +1,11 @@
+begday@2019-04-30
+begantime@13:24:00
+endday@2019-05-13
+endtime@23:20:30
+beganweek@1234
+tgrade@2
+taskcontent@音频测试
+count@3
+type@0
+interarrivaltime@3
+file@让一切随风.mp3:莲美人.mp3:测试中文.mp3

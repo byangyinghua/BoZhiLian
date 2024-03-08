@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Android.mk",
+    "H:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Application.mk"
+  ],
+  "cleanCommands": [
+    "H:\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Android.mk NDK_APPLICATION_MK\u003dH:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dH:/preject/preject/BoZhiLian/library/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\preject\\preject\\BoZhiLian\\library\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "yuv-debug-x86": {
+      "artifactName": "yuv",
+      "buildCommand": "H:\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Android.mk NDK_APPLICATION_MK\u003dH:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dH:/preject/preject/BoZhiLian/library/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\preject\\preject\\BoZhiLian\\library\\build\\intermediates\\ndkBuild\\debug\\lib H:/preject/preject/BoZhiLian/library/build/intermediates/ndkBuild/debug/obj/local/x86/libyuv.so",
+      "abi": "x86",
+      "output": "H:\\preject\\preject\\BoZhiLian\\library\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libyuv.so"
+    },
+    "enc-debug-x86": {
+      "artifactName": "enc",
+      "buildCommand": "H:\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dH:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Android.mk NDK_APPLICATION_MK\u003dH:\\preject\\preject\\BoZhiLian\\library\\src\\main\\cpp\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dH:/preject/preject/BoZhiLian/library/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dH:\\preject\\preject\\BoZhiLian\\library\\build\\intermediates\\ndkBuild\\debug\\lib H:/preject/preject/BoZhiLian/library/build/intermediates/ndkBuild/debug/obj/local/x86/libenc.so",
+      "abi": "x86",
+      "output": "H:\\preject\\preject\\BoZhiLian\\library\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libenc.so"
+    }
+  }
+}

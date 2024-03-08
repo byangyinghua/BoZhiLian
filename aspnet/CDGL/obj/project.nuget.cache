@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "HoK2LGW346ueVWBVr1MqifVm+VLwGWLcjcQ3Hh/b/Wow9rGxuciMLjvPoia+1EHKpYHbY3P0+Z9Wo2fBR1f+PQ==",
+  "success": false,
+  "projectFilePath": "F:\\aspnet\\CDGL\\CDGL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“e:\\Microsoft Visual Studio\\Shared  \\NuGetPackages”不存在。",
+      "libraryId": "Microsoft.VisualStudio.Azure.Containers.Tools.Targets"
+    }
+  ]
+}

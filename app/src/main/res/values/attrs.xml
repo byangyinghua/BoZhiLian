@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <!--表盘的边距-->
+        <attr name="cv_padding" format="dimension"/>
+        <!--表盘文字大小-->
+        <attr name="cv_text_size" format="dimension"/>
+        <!--时针的宽度-->
+        <attr name="cv_hour_pointer_width" format="dimension"/>
+        <!--分针的宽度-->
+        <attr name="cv_minute_pointer_width" format="dimension"/>
+        <!--秒针的宽度-->
+        <attr name="cv_second_pointer_width" format="dimension"/>
+        <!--指针圆角值-->
+        <attr name="cv_pointer_corner_radius" format="dimension"/>
+        <!--指针超过中心点的长度-->
+        <attr name="cv_pointer_end_length" format="dimension"/>
+        <!--时刻刻度颜色-->
+        <attr name="cv_scale_long_color" format="color"/>
+        <!--非时刻刻度颜色-->
+        <attr name="cv_scale_short_color" format="color"/>
+        <!--时针颜色-->
+        <attr name="cv_hour_pointer_color" format="color"/>
+        <!--分针颜色-->
+        <attr name="cv_minute_pointer_color" format="color"/>
+        <!--秒针颜色-->
+        <attr name="cv_second_pointer_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="VerticalMarqueeTextView">
+        <attr
+            name="autoStartMarquee"
+            format="boolean"/>
+        <attr
+            name="marqueeSpeed"
+            format="reference|integer"/>
+        <attr
+            name="text"
+            format="reference|string"/>
+        <attr
+            name="textSize"
+            format="reference|dimension"/>
+        <attr
+            name="textColor"
+            format="reference|color"/>
+        <attr
+            name="textAppearance"
+            format="reference"/>
+        <attr name="textStyle">
+            <enum
+                name="normal"
+                value="0"/>
+            <enum
+                name="bold"
+                value="1"/>
+            <enum
+                name="italic"
+                value="2"/>
+        </attr>
+        <attr name="typeface">
+            <enum
+                name="normal"
+                value="0"/>
+            <enum
+                name="sans"
+                value="1"/>
+            <enum
+                name="serif"
+                value="2"/>
+            <enum
+                name="monospace"
+                value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>

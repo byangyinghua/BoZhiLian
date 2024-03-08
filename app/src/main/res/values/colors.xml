@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="log_debug">#0070BB</color>
+    <color name="log_info">#48BB31</color>
+    <color name="log_error">#8F0005</color>
+    <color name="textColor_alert_title">#000000</color>
+    <color name="text_gray_3">#999999</color>
+    <color name="tb_munion_item_force">#e3e3e3</color>
+    <color name="shopcart_goods_price">#ffac2e</color>
+    <color name="black3">#000000</color>
+    <color name="title_black_color">#333333</color>
+    <color name="theme">#1E1E1E</color>
+    <color name="transparent">#00000000</color>
+    <color name="c_FFFFFF">#FFFFFF</color>
+    <color name="shopcart_shop_title_did">#252525</color>
+</resources>
